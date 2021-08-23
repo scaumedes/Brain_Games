@@ -6,3 +6,5 @@
 
 ### GitHub Actions
 ![example workflow](https://github.com/scaumedes/python-project-lvl1/actions/workflows/checks.yml/badge.svg)
+
+## Game example
