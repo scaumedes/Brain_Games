@@ -11,7 +11,7 @@ def main():
         first_number = random.randint(1, 50)
         list_of_numbers = [first_number, ]
         generated_number = first_number
-        hidden_number = random.randint(1, 10)
+        hidden_number = random.randint(2, 10)
         i = 1
         k = 0
         while i <= 10:
