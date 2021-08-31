@@ -23,7 +23,7 @@ def main():
             if k == hidden_number:
                 print('..', end=' ')
             else:
-                print('{}'.format(list_of_numbers[k]), end=' ')
+                print(list_of_numbers[k], end=' ')
             k = k + 1
         user_answer = int(prompt.string('\nYour answer: '))
         if user_answer == list_of_numbers[hidden_number]:
