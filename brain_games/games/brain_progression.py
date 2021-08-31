@@ -7,11 +7,11 @@ def main():
     print('What number is missing in the progression?')
     correct_answers_count = 0
     while correct_answers_count < 3:
-        difference = random.randint(1,10)
+        difference = random.randint(1, 10)
         first_number = random.randint(1, 50)
         list_of_numbers = [first_number, ]
         generated_number = first_number
-        hidden_number = random.randint(1,10)
+        hidden_number = random.randint(1, 10)
         i = 1
         k = 0
         while i <= 10:
@@ -19,7 +19,7 @@ def main():
             list_of_numbers.append(generated_number)
             i = i + 1
         print('Question:', end = ' ')
-        while k <=9:
+        while k <= 9:
             if k == hidden_number:
                 print('..', end = ' ')
             else:
@@ -41,4 +41,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-        

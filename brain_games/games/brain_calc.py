@@ -7,8 +7,8 @@ def main():
     print('What is the result of the expression?')
     correct_answers_count = 0
     while correct_answers_count < 3:
-        n1 = random.randint(1,40)
-        n2 = random.randint(1,40)
+        n1 = random.randint(1, 40)
+        n2 = random.randint(1, 40)
         list_used_symbols = ['-', '+', '*']
         action = random.choice(list_used_symbols)
         user_answer = prompt.string('Question: {} {} {}\n'.format(n1, action, n2))
@@ -30,6 +30,6 @@ def main():
     if correct_answers_count == 3:
         print('Congratulations, {}!'.format(name))
 
-    
+
 if __name__ == '__main__':
     main()

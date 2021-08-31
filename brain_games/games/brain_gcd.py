@@ -8,8 +8,8 @@ def main():
     print('Find the greatest common divisor of given numbers.')
     correct_answers_count = 0
     while correct_answers_count < 3:
-        n1 = random.randint(1,100)
-        n2 = random.randint(1,100)
+        n1 = random.randint(1, 100)
+        n2 = random.randint(1, 100)
         print('Question: {} {}'.format(n1, n2))
         user_answer = int(prompt.string('Your answer: '))
         true_asnswer = gcd(n1, n2)

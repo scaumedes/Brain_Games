@@ -7,11 +7,11 @@ def main():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     correct_answers_count = 0
     while correct_answers_count < 3:
-        generated_number = random.randint(1,100)
+        generated_number = random.randint(1, 100)
         print('Question: {}'.format(generated_number))
         user_answer = prompt.string('Your answer: ')
         if generated_number > 1:
-            for i in range(2, int(generated_number/2)+1):
+            for i in range(2, int(generated_number / 2) + 1):
                 if (generated_number % i) == 0:
                     true_answer = 'no'
                     break
