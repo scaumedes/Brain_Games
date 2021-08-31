@@ -18,3 +18,6 @@
 
 ## Brain-progression gameplay
 [![asciicast](https://asciinema.org/a/433133.svg)](https://asciinema.org/a/433133)
+
+## Brain-prime gameplay
+[![asciicast](https://asciinema.org/a/NeZaW6heD7CFQKzW7ag5c5oSd.svg)](https://asciinema.org/a/NeZaW6heD7CFQKzW7ag5c5oSd)
