@@ -7,7 +7,7 @@ def main():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     correct_answers_count = 0
     while correct_answers_count < 3:
-        n = random.randint(1,40)
+        n = random.randint(1, 40)
         print('Question: {}'.format(n))
         answer = prompt.string('Your answer: ')
         if n % 2 == 0:

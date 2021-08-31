@@ -18,12 +18,12 @@ def main():
             generated_number = generated_number + difference
             list_of_numbers.append(generated_number)
             i = i + 1
-        print('Question:', end = ' ')
+        print('Question:', end=' ')
         while k <= 9:
             if k == hidden_number:
-                print('..', end = ' ')
+                print('..', end=' ')
             else:
-                print('{}'.format(list_of_numbers[k]), end = ' ')
+                print('{}'.format(list_of_numbers[k]), end=' ')
             k = k + 1
         user_answer = int(prompt.string('\nYour answer: '))
         if user_answer == list_of_numbers[hidden_number]:
