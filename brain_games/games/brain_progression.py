@@ -11,15 +11,15 @@ def main():
         first_number = random.randint(1, 50)
         list_of_numbers = [first_number, ]
         generated_number = first_number
-        hidden_number = random.randint(2, 10)
+        hidden_number = random.randint(2, 9)
         i = 1
         k = 0
-        while i <= 10:
+        while i <= 9:
             generated_number = generated_number + difference
             list_of_numbers.append(generated_number)
             i = i + 1
         print('Question:', end=' ')
-        while k <= 9:
+        while k <= 8:
             if k == hidden_number:
                 print('..', end=' ')
             else:
